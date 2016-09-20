@@ -5,9 +5,9 @@
 ---------------------------------------
 * build_master_environment.sh &emsp; 构建陆地的服务器环境<br>
 * build_cave_environment.sh &emsp;&emsp; 构建洞穴的服务器环境（未实现）<br>
-* check_update.sh &emsp;&emsp;&emsp;&emsp; 从steam服务器获取主程序的更新<br>
+* check_update.sh &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 从steam服务器获取主程序的更新<br>
 * run_Master_servers.sh &emsp;&emsp;&emsp;&emsp; 运行陆地的服务器程序<br>
-* modlist &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod<br>
+* modlist &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod<br>
 
 注意：
 -----
