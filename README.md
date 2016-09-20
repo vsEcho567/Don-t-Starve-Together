@@ -1,9 +1,13 @@
 # Don-t-Starve-Together
 
 build_master_environment.sh     构建陆地的服务器环境
+
 build_cave_environment.sh       构建洞穴的服务器环境（暂未实现）
+
 check_update.sh                 从steam服务器获取主程序的更新
+
 run_Master_servers.sh           运行陆地的服务器程序
+
 modlist                         服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod
 
 
@@ -20,10 +24,13 @@ mod_id    （可选）说明文字
 
 简单开启服务器方式：
 1.安装需要的库（根据不同发行版安装命令不同，服务器建议安装的发行版为debian8 32bit）
-    32位DEB系的发行版（debian ubuntu）安装命令：  sudo apt-get install libstdc++6 libgcc1 libcurl4-gnutls-dev
-    64位DEB系的发行版（debian ubuntu）安装命令：  sudo apt-get install libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386
-    32位RPM系的发行版（redhat centos）安装命令（两条命令）： sudo yum install libstdc++ glibc libcurl 
-                                                         sudo ln -s /usr/lib/libcurl.so.4 /usr/lib/libcurl-gnutls.so.4
+    32位DEB系的发行版（debian ubuntu）安装命令：
+        sudo apt-get install libstdc++6 libgcc1 libcurl4-gnutls-dev
+    64位DEB系的发行版（debian ubuntu）安装命令：  
+        sudo apt-get install libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386
+    32位RPM系的发行版（redhat centos）安装命令（两条命令）： 
+        sudo yum install libstdc++ glibc libcurl 
+        sudo ln -s /usr/lib/libcurl.so.4 /usr/lib/libcurl-gnutls.so.4
     不建议用64位RPM系发行版来安装
     
 2.运行build_master_environment.sh 
