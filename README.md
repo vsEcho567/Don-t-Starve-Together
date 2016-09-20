@@ -3,11 +3,11 @@
 
 包含文件:
 ---------------------------------------
-* build_master_environment.sh    构建陆地的服务器环境<br>
-* build_cave_environment.sh      构建洞穴的服务器环境（暂未实现<br>
-* check_update.sh                从steam服务器获取主程序的更新<br>
-* run_Master_servers.sh          运行陆地的服务器程序<br>
-* modlist                        服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod<br>
+* build_master_environment.sh &emsp; 构建陆地的服务器环境<br>
+* build_cave_environment.sh &emsp; 构建洞穴的服务器环境（未实现）<br>
+* check_update.sh &emsp; 从steam服务器获取主程序的更新<br>
+* run_Master_servers.sh &emsp; 运行陆地的服务器程序<br>
+* modlist &emsp; 服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod<br>
 
 注意：
 -----
@@ -15,8 +15,8 @@
 （因为linux检测回车符号与windows自带文本编辑器不相同，linux为\n，windows一般为\r\n）<br>
 
 modlist格式为：<br>
-mod_id > （可选）说明文字<br>
-mod_id > （可选）说明文字<br>
+mod_id &emsp; （可选）说明文字<br>
+mod_id &emsp; （可选）说明文字<br>
 
 取得mod_id方法：打开steam商店相应mod页面，在地址栏上显示id=xxxxxxx这一串数字就是了。<br>
 
