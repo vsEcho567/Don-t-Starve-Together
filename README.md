@@ -3,11 +3,11 @@
 
 包含文件:
 ---------------------------------------
-*build_master_environment.sh>构建陆地的服务器环境<br>
-*build_cave_environment.sh>>构建洞穴的服务器环境（暂未实现<br>
-*check_update.sh>>>从steam服务器获取主程序的更新<br>
-*run_Master_servers.sh>>运行陆地的服务器程序<br>
-*modlist>>>>服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod<br>
+*build_master_environment.sh    构建陆地的服务器环境<br>
+*build_cave_environment.sh      构建洞穴的服务器环境（暂未实现<br>
+*check_update.sh                从steam服务器获取主程序的更新<br>
+*run_Master_servers.sh          运行陆地的服务器程序<br>
+*modlist                        服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod<br>
 
 注意：
 -----
@@ -24,14 +24,14 @@ mod_id  （可选）说明文字<br>
 简单开启服务器方式：
 -----------------
 *1.安装需要的库（根据不同发行版安装命令不同，服务器建议安装的发行版为debian8 32bit）<br>
-        32位DEB系的发行版（debian ubuntu）安装命令：<br>
-                sudo apt-get install libstdc++6 libgcc1 libcurl4-gnutls-dev<br>
-        64位DEB系的发行版（debian ubuntu）安装命令：  <br>
-                sudo apt-get install libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386<br>
-        32位RPM系的发行版（redhat centos）安装命令（两条命令）： <br>
-                sudo yum install libstdc++ glibc libcurl <br>
-                sudo ln -s /usr/lib/libcurl.so.4 /usr/lib/libcurl-gnutls.so.4<br>
-        不建议用64位RPM系发行版来安装<br>
+		32位DEB系的发行版（debian ubuntu）安装命令：<br>
+				sudo apt-get install libstdc++6 libgcc1 libcurl4-gnutls-dev<br>
+		64位DEB系的发行版（debian ubuntu）安装命令：  <br>
+				sudo apt-get install libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386<br>
+		32位RPM系的发行版（redhat centos）安装命令（两条命令）： <br>
+				sudo yum install libstdc++ glibc libcurl <br>
+				sudo ln -s /usr/lib/libcurl.so.4 /usr/lib/libcurl-gnutls.so.4<br>
+		不建议用64位RPM系发行版来安装<br>
     
 *2.运行build_master_environment.sh <br>
 
