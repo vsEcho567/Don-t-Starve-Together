@@ -1,15 +1,10 @@
 # Don-t-Starve-Together
 
 build_master_environment.sh     构建陆地的服务器环境
-
 build_cave_environment.sh       构建洞穴的服务器环境（暂未实现）
-
 check_update.sh                 从steam服务器获取主程序的更新
-
 run_Master_servers.sh           运行陆地的服务器程序
-
 modlist                         服务端需要开启的mods，在每次run_Master_servers.sh之前会检测该文件并自动从steam下载本地没有的mod
-
 
 注意：
 所有文件都不要使用windows自带的文本编辑器来编辑，建议使用notepa++或者vscode来编辑。
