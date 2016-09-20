@@ -3,9 +3,10 @@
 #you have to modify this
 SERVER_NAME=type_your_server_name
 SERVER_DESCRIPTION=type_your_server_description
-SERVER_PASSWORD=                                #blank means no password
+SERVER_PASSWORD=123456                                #blank means no password
 STEAM_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #
+
 
 CLUSTER_KEY=abcabcabc                           #
 
