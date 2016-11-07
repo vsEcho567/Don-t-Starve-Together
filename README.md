@@ -27,7 +27,9 @@ mod_id &emsp; （可选）说明文字<br>
 	* 32位DEB系的发行版（debian ubuntu）安装命令：<br>
 		* sudo apt-get install libstdc++6 libgcc1 libcurl4-gnutls-dev<br>
 	* 64位DEB系的发行版（debian ubuntu）安装命令：  <br>
-		* sudo apt-get install libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386<br>
+		* sudo dpkg --add-architecture i386
+		* sudo apt-get update
+		* sudo apt-get install -y libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386<br>
 	* 32位RPM系的发行版（redhat centos）安装命令（两条命令）： <br>
 		* sudo yum install libstdc++ glibc libcurl <br>
 		* sudo ln -s /usr/lib/libcurl.so.4 /usr/lib/libcurl-gnutls.so.4<br>
